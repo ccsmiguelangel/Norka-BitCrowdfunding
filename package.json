@@ -1,0 +1,29 @@
+{
+  "name": "bitcrowdfunding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "git add -A && git commit -m \"Agregados cambios y mejoras\" && git push",
+    "scss": "sass css",
+    "scss_watch": "sass --watch css",
+    "comp": "npm run scss && npm run min",
+    "min": "minify js/main.js > js/main.min.js && minify css/styles.css > css/styles.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccsmiguelangel/Norka-BitCrowdfunding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccsmiguelangel/Norka-BitCrowdfunding/issues"
+  },
+  "homepage": "https://github.com/ccsmiguelangel/Norka-BitCrowdfunding#readme",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^4.5.3",
+    "vue": "^2.6.12"
+  }
+}
